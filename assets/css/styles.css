@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* La div conteneur pour l'image en plein écran */
+  /* .fullscreen-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+  .fullscreen-image {
+    background-image: url('../images/625196437d3b8c627bfbc7b3_mkosowska-desktop.jpg');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+  }
+  
+  /* Le logo en haut à gauche */
+  .logo-container {
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .logo-container img {
+    width: 40%;
+  }
+  /* Le menu hamburger en haut à droite */
+  .menu-container {
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+  }
+  
+  /* Les barres du menu hamburger */
+  .hamburger-menu {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  
+  /* Le contenu centré horizontalement et verticalement */
+  .centered-content {
+    position: absolute;
+    top: 50%;
+    left: 9.5%;
+    transform: translateY(-50%);
+    width: 60%;
+    text-align: left;
+    padding: 0 20px;
+    color: #fff;
+  }
+  
+  /* Le grand titre */
+  .title-header {
+    font-size: 6.5rem;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+    line-height: 6.5rem;
+  }
+  
+  /* Le paragraphe */
+  .small-title-header {
+    font-size: 0.8rem;
+    letter-spacing: 0.3lvh;
+    color: rgba(255, 255, 255, 0.548);
+    margin-bottom: 20px;
+  }
+
+  /* Le bloc du le lettre et du mot*/
+  .side-block {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    width: 40px;
+  }
+  /* La lettre */
+  .letter {
+    position: relative;
+    font-size: 1.5rem;
+    color: #fff;
+    /* transform: rotate(-90deg); */
+    margin-bottom: 50px;
+    top: -10%;
+  }
+  /* Le mot */
+  .word {    
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: bold;
+    transform: rotate(-90deg);
+  }
+
+/* Section Description */
+/* 
+  .description-container{    
+    display: flex;
+    flex-direction: row;
+    padding: 14% 15% 8% 15% ;
+    align-items: center;
+    justify-content: center;
+  }
+  .description-container .text-description{
+    padding: 30px;
+    font-size: 1.58rem;
+    line-height: 2.5rem;
+*/    
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+/*
+  }  
+*/
+
+  /* Section Biographie */
+  .biographie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    padding: 10% 10% 7% 10% ;
+    }
+
+    .bio {
+        padding: 30px;
+        width: 45%;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    /*
+    .image {
+        text-align: center;
+    }
+     
+    .image img {
+        width :30%;
+        height:30%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    } */
+
+/* Section Description Certification */
+    .image-certified{
+        border: red 6px solid;
+        border-radius: 0 80px 0 80px;
+        padding: 20px;
+        height: 30vh;        
+        text-align: center;
+    }
+
+    .name-certified {
+        font-size: 0.8rem;
+    }
+
+    .certification-titre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.7rem;
+        font-weight: bold;
+        color: red;        
+        border-top: 1px black solid;
+    }
+    .certification-date{
+        position: relative;
+        background: red;
+        padding: 2px 3px 2px 3px;
+        width: 30%;
+        left: 35%;
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .certification-secteur{
+        font-size: 1.8rem;
+        padding: 10px 0 10px 0;
+        border-top: 1px black solid;
+        border-bottom: 1px black solid;
+    }
+
+    .certification-auteur{     
+        font-size: 1rem;   
+        font-weight: bold;
+    }
+
+
+    /* Section Projets */
+    .projet{
+        background-color: #faf8f5;   
+    }
+    .projet-title-container{
+        padding: 9%;
+    }
+    .projet-title-container p{
+        font-size: 0.9rem;
+    }
+    .projet-title-container h1{
+        font-size: 3.5rem;
+    }
+    .bloc{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .bloc img{
+        width: 70%;
+        text-align: center;
+        margin-left: 18%;
+    }
+    .bloc p{
+        margin-left: 18%;
+    }
+    .projet-title{
+        font-weight: bold;
+        font-size: 1.5rem;
+        font-family: 'Roboto Slab', serif;
+        margin-top: 10px;
+    }    
+    .projet-small{
+        margin-top: 1%;
+        font-size: 0.7rem;
+        letter-spacing: 0.4lvh;
+    }
+    .projet-image-first{
+        margin-left: 10px;
+    }
+    .projet-image-second{        
+        margin-right: 10px;
+        margin-bottom: 20%;
+    }
+    .projet {
+        padding-bottom: 10%;
+    }
+
+   
+    /* Section Field */
+    .field-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0 15% 0 15% ;
+    }
+    .field-small{
+        margin-top: 8%;
+        font-size: 1rem;
+        letter-spacing: 0.4lvh;
+    }
+    .field-title{        
+        font-size: 5rem;
+        font-family: 'Roboto Slab', serif;
+        margin-bottom: 20px;
+        line-height: 5rem;
+    }
+    .field-text{        
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    /*  Dernier élément du mail */
+    main section:last-child {
+        margin-bottom: 50%;
+    }
+
+    /* FOOTER */
+    footer {
+    padding-top: 5%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        /* padding: 0 15% 0 15% ; */
+        color: white;
+    }
+    .contact img{
+        width: 50%;
+    }
+    .contact{
+        margin-bottom: 5%;
+        margin-left: 5%;
+        line-height: 2rem;
+    }
+    .email{
+        font-size: 4rem;
+        padding-top: 4%;
+    }
+    .small-contact{        
+        margin-top: 8%;
+        font-size: 1rem;
+        letter-spacing: 0.4lvh;
+    }
+    .menu{            
+        margin-top: 8%;
+    }
+    .menu a{
+        margin-right: 5%;
+        text-decoration: none;
+        color: #fff;
+    }
