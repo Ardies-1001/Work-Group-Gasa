@@ -4,16 +4,6 @@
   }
   
   /* La div conteneur pour l'image en plein écran */
-  /* .fullscreen-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
   .fullscreen-image {
     background-image: url('../images/625196437d3b8c627bfbc7b3_mkosowska-desktop.jpg');
     /* background-position: center; */
@@ -241,14 +231,16 @@
     .projet-small{
         margin-top: 1%;
         font-size: 0.7rem;
-        letter-spacing: 0.4lvh;
+        letter-spacing: ;
     }
     .projet-image-first{
         margin-left: 10px;
+        width: 120%;
     }
     .projet-image-second{        
-        margin-right: 10px;
+        margin-right: 2%; /*10px*/
         margin-bottom: 20%;
+        width: 120%;
     }
     .projet {
         padding-bottom: 10%;
@@ -265,8 +257,7 @@
     }
     .field-small{
         margin-top: 8%;
-        font-size: 1rem;
-        letter-spacing: 0.4lvh;
+        letter-spacing: 3.5px;
     }
     .field-title{        
         font-size: 5rem;
@@ -313,8 +304,8 @@
     }
     .small-contact{        
         margin-top: 8%;
-        font-size: 1rem;
-        letter-spacing: 0.4lvh;
+        font-size: 0.8rem;
+        letter-spacing: 2px;
     }
     .menu{            
         margin-top: 8%;
@@ -323,4 +314,5 @@
         margin-right: 5%;
         text-decoration: none;
         color: #fff;
+        letter-spacing: 4px;
     }
